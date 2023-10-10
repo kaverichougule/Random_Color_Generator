@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    margin: 50px 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.div_container{
+    height: 150px;
+    width: 300px;
+    background-color: blueviolet;
+    color: black;   
+}
