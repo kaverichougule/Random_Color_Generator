@@ -14,6 +14,7 @@ let color_divs=document.querySelectorAll('.div_container');
 color_divs.forEach((single_color_div)=>{
     let color_code_generated=RandomColorGenerator();
     single_color_div.style.backgroundColor="#"+color_code_generated;
+    single_color_div.innerText=`#${color_code_generated}`
 })
 function RandomColorGenerator(){
     let hexCode="0123456789abcdef"
